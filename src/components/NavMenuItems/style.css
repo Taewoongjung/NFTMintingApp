@@ -1,0 +1,15 @@
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    background-color: #6d7677;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-mobile {
+    display: none;
+}

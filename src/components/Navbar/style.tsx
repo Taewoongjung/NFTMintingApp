@@ -23,4 +23,26 @@ export const NavbarLogo = styled.h1`
   cursor: pointer;
 `;
 
-export const
+export const FaReact = styled.i`
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+`;
+
+export const NavMenu = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+`;
+
+export const Bar = styled.i`
+  color: white;
+`;
+
+export const MenuIcon = styled.div`
+  display: none;
+`;
