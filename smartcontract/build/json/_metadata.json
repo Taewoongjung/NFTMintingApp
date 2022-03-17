@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Your Collection #1",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/1.png",
+    "dna": "7643cd5608bf819d0990ea20074d7c69d0b84e7e",
+    "edition": 1,
+    "date": 1647519795452,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #2",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/2.png",
+    "dna": "0a6c8883f46ebdf0b2894db93b1dc2e156e193c8",
+    "edition": 2,
+    "date": 1647519795519,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #3",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/3.png",
+    "dna": "a28bb1fdef8734f26233fac4dcbec30ab799e267",
+    "edition": 3,
+    "date": 1647519795584,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #4",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/4.png",
+    "dna": "a7fcf3eacd01d47913d94c5041afbdc88ef096cf",
+    "edition": 4,
+    "date": 1647519795652,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #5",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/5.png",
+    "dna": "ac57dceafe779fb85e50157da92dc196262f5894",
+    "edition": 5,
+    "date": 1647519795717,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #6",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/6.png",
+    "dna": "6117166a80c8c2f80370164e2a771c55e426614d",
+    "edition": 6,
+    "date": 1647519795778,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #7",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/7.png",
+    "dna": "06269c3e9e4404126548842c80e9c471a40757ef",
+    "edition": 7,
+    "date": 1647519795838,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #8",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/8.png",
+    "dna": "3a8476ecd5135821a21af3fc057ccf8c4e099162",
+    "edition": 8,
+    "date": 1647519795890,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #9",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/9.png",
+    "dna": "86199ecb967e76ac49f1f7680d5b09ea7be1a31e",
+    "edition": 9,
+    "date": 1647519795951,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #10",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/10.png",
+    "dna": "264199b4f548d9f0ec191420937320cc040ccdc0",
+    "edition": 10,
+    "date": 1647519796007,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #11",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/11.png",
+    "dna": "095203b13de80f8b0cf3420cfe6b53a077c143b3",
+    "edition": 11,
+    "date": 1647519796066,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #12",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/12.png",
+    "dna": "0af8ded8fc0ae26a47a6c7fdf7e7c6c7bc577acb",
+    "edition": 12,
+    "date": 1647519796122,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #13",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/13.png",
+    "dna": "662ad6aac3b5cd4826b578b1677af59e99a87922",
+    "edition": 13,
+    "date": 1647519796184,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #14",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/14.png",
+    "dna": "938d15c594d36d4c342f1aa2d28ca701e09db933",
+    "edition": 14,
+    "date": 1647519796245,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #15",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/15.png",
+    "dna": "18b00cf4951785be153b1b6603a3c8f3cb7b058f",
+    "edition": 15,
+    "date": 1647519796304,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #16",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/16.png",
+    "dna": "bdf50169e5f4c1890be1c868c8916c72bbf4b2c4",
+    "edition": 16,
+    "date": 1647519796360,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #17",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/17.png",
+    "dna": "c8f2a611fb5282f9e6a7e87f3d5337ea53b76661",
+    "edition": 17,
+    "date": 1647519796422,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #18",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/18.png",
+    "dna": "9b4c9d7526b189db285d47ff8d535dce4f4ef444",
+    "edition": 18,
+    "date": 1647519796488,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #19",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/19.png",
+    "dna": "f1244f029f31475776010a7cdaa248147fca0bdc",
+    "edition": 19,
+    "date": 1647519796550,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "Your Collection #20",
+    "description": "Remember to replace this description",
+    "image": "ipfs://NewUriToReplace/20.png",
+    "dna": "7fc5989797f8ba48445124aa36ad7c7a7239210e",
+    "edition": 20,
+    "date": 1647519796613,
+    "creator": "TaeWoongJung",
+    "clan": "GyeongJu",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Background"
+      },
+      {
+        "trait_type": "Body",
+        "value": "Body"
+      },
+      {
+        "trait_type": "Eye",
+        "value": "Eye"
+      },
+      {
+        "trait_type": "Mouse",
+        "value": "Mouse"
+      },
+      {
+        "trait_type": "Mustache",
+        "value": "Mustache"
+      },
+      {
+        "trait_type": "Nose",
+        "value": "Nose"
+      },
+      {
+        "trait_type": "Tail",
+        "value": "Tail"
+      },
+      {
+        "trait_type": "Ears",
+        "value": "Ear"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]

@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container} from "./style";
+import Navbar from "../../components/Navbar";
 
 const Main = () => {
     return (
-        <Container>
-        </Container>
+        <div className="App">
+            <Navbar />
+        </div>
     )
 };
 
