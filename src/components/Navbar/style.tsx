@@ -8,7 +8,7 @@ export const Whole = styled.div` // 이거 나중에 글로벌로 빼기
 `;
 
 export const NavItems = styled.nav`
-  background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgb(73,63,252,1) 100%);
+  //background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgb(73,63,252,1) 100%);
   height: 80px;
   display: flex;
   justify-content: center;

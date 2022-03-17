@@ -2,22 +2,23 @@ import React, {useCallback} from "react";
 import { NavMenuItems } from "../NavMenuItems";
 import {Whole, NavItems, NavbarLogo, FaReact, NavMenu, Bar, MenuIcon} from "./style";
 import {useLocalStore} from "mobx-react";
-import {css} from "@emotion/react";
 
 const Navbar = () => {
     const state = useLocalStore(() => ({
         clicked: false
     }));
 
+    const gameperLogo = "./Gameper.png";
+
     const handleClick = useCallback((e) => {
         e.preventDefault();
         state.clicked=true;
     },[state.clicked]);
-    css()
+
     return (
         <Whole>
             <NavItems className="NavbarItems">
-                <NavbarLogo className="navbar-logo">React<FaReact className="fab fa-react"></FaReact></NavbarLogo>
+                <NavbarLogo className="navbar-logo"><FaReact className=""><img src={require("./Gameper.png")} style={{  width: 150 }}></img></FaReact></NavbarLogo>
                 <MenuIcon className="menu-icon" onClick={handleClick}>
                     <Bar className={state.clicked ? 'fas fa-times' : 'fas fa-bars'}></Bar>
                 </MenuIcon>

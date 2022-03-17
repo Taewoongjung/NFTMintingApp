@@ -4,22 +4,22 @@ export const NavMenuItems = [
     {
         title: 'Home',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links-fir'
     },
     {
         title: 'Service',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links-sec'
     },
     {
         title: 'Products',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links-third'
     },
     {
         title: 'Contact Us',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links-fourth'
     },
     {
         title: 'Sign up',

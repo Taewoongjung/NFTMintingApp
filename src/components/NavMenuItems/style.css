@@ -1,11 +1,47 @@
-.nav-links {
-    color: white;
+.nav-links-fir {
+    color: #58BC9F;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
-    background-color: #6d7677;
+.nav-links-sec {
+    color: #F4CC2D;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links-third {
+    color: #E15645;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links-fourth {
+    color: #9059A2;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links-fir:hover {
+    background-color: #9059A2;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-sec:hover {
+    background-color: #E15645;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-third:hover {
+    background-color: #F4CC2D;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.nav-links-fourth:hover {
+    background-color: #58BC9F;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
