@@ -1,5 +1,8 @@
 import styled from "@emotion/styled";
 
-export const Box = styled.div`
-
+export const MainContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 `;
