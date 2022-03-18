@@ -29,7 +29,6 @@ const MainBoard = () => {
                 <input type="file" accept="image/*" name="image-upload" id="input" onChange={imageHandler} />
                 <div className="label">
                     <label className="image-upload" htmlFor="input">
-                        <i className="material-icons">add_photo_alternate</i>
                         Choose your Photo
                     </label>
                 </div>

@@ -2,40 +2,36 @@
     margin: 0;
     padding: 0;
 }
-
 .page{
-    height: 100vh;
-    background-color: #512da8;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .container{
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: rgba(170, 160, 107, 0.3);
 }
 .heading{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1rem;
     font-weight: bold;
-
+    font-size: 25px;
 }
 .img-holder{
     margin: auto;
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     border: 3px black solid;
     border-radius: 5px;
     margin-top: 1rem;
 }
 .img{
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
     object-fit: cover;
 }
 #input[type="file"] {
@@ -50,10 +46,10 @@
 .image-upload{
     margin: auto;
     width: 200px;
-    height: 50px;
+    height: 40px;
     color: white;
     border-radius: 10px;
-    background-color: black;
+    background-color: #000000;
     text-align: center;
     cursor: pointer;
 }
