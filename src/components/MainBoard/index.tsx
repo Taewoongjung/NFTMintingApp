@@ -1,31 +1,41 @@
-import React, {useCallback} from 'react';
-import {useLocalStore} from "mobx-react";
+import React, {useCallback, useRef} from 'react';
+import {useLocalStore, useObserver} from "mobx-react";
+import "./style.css";
 
 const MainBoard = () => {
     const state = useLocalStore(() => ({
         file: [],
         fileName: '',
-
+        isDragging: false,
+        profileImg: require("./icon.png")
     }));
 
-    const fileSelectedHandler = useCallback((e) => {
-        state.file = e.target.files;
-        console.log("fileSelectedHandler event = ", e.target.files);
-    }, [state.file]);
-
-    const fileUploadHandler = useCallback((e) => {
-        console.log("fileUploadHandler event = ", e.target);
-        for(let i = 0; i < state.file.length; i++) {
-            console.log("index ", i, "pushed = ", state.file[i]);
+    const imageHandler = useCallback((e) => {
+        const reader = new FileReader();
+        reader.onload = () =>{
+            if(reader.readyState === 2){
+                state.profileImg = reader.result
+            }
         }
-    }, []);
-
-    return (
-        <div>
-            <input type="file" onChange={fileSelectedHandler} multiple/>
-            <button onClick={fileUploadHandler}>upload</button>
+        reader.readAsDataURL(e.target.files[0])
+    },[]);
+    return useObserver(() => (
+        <div className="page">
+            <div className="container">
+                <h1 className="heading">Add your Image</h1>
+                <div className="img-holder">
+                    <img src={state.profileImg} alt="" id="img" className="img" />
+                </div>
+                <input type="file" accept="image/*" name="image-upload" id="input" onChange={imageHandler} />
+                <div className="label">
+                    <label className="image-upload" htmlFor="input">
+                        <i className="material-icons">add_photo_alternate</i>
+                        Choose your Photo
+                    </label>
+                </div>
+            </div>
         </div>
-    )
+    ));
 }
 
 export default MainBoard;

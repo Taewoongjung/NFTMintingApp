@@ -1,6 +1,5 @@
 import styled from "@emotion/styled";
 
-export const hi = styled.div`
-
-
+export const FileUploadInput = styled.input`
+  display: none;
 `;
