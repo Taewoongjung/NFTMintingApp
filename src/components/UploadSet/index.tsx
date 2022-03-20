@@ -1,15 +1,15 @@
 import React, {useCallback, useRef} from 'react';
 import {useLocalStore, useObserver} from "mobx-react";
+import { saveAs } from 'file-saver';
 import "./style.css";
 
-const MainBoard = () => {
+const UploadSet = () => {
     const state = useLocalStore(() => ({
         file: [],
         fileName: '',
         isDragging: false,
         profileImg: require("./icon.png")
     }));
-
     const imageHandler = useCallback((e) => {
         const reader = new FileReader();
         reader.onload = () =>{
@@ -37,4 +37,4 @@ const MainBoard = () => {
     ));
 }
 
-export default MainBoard;
+export default UploadSet;

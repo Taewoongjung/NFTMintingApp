@@ -88,7 +88,7 @@ const Main = () => {
                         errorText={'Error'}
                         type={'button'}
                         className={'class1 class2'}
-                        style={{ borderRadius: '15px', marginLeft:7 }}
+                        style={{ borderRadius: '15px', marginLeft:12 }}
                         size={'normal'}
                         block={false}
                         messageDuration={2000}

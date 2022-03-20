@@ -69,6 +69,7 @@ export const BoxNine = styled.div`
 
 export const BoxEleven = styled.div`
   display: flex;
+  padding-top: 5%;
   justify-content: center;
   grid-area: eleven;
   height: 100%;
