@@ -1,0 +1,45 @@
+{
+  "name": "Your Collection #64",
+  "description": "Remember to replace this description",
+  "image": "ipfs://NewUriToReplace/64.png",
+  "dna": "e81ad5cbc6b88f6aab5d7299e9c2e3bb6ada945f",
+  "edition": 64,
+  "date": 1647826288561,
+  "creator": "TaeWoongJung",
+  "clan": "GyeongJu",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Body"
+    },
+    {
+      "trait_type": "Eye",
+      "value": "Eye"
+    },
+    {
+      "trait_type": "Mouse",
+      "value": "Mouse"
+    },
+    {
+      "trait_type": "Mustache",
+      "value": "Mustache"
+    },
+    {
+      "trait_type": "Nose",
+      "value": "Nose"
+    },
+    {
+      "trait_type": "Tail",
+      "value": "Tail"
+    },
+    {
+      "trait_type": "Ears",
+      "value": "Ear"
+    }
+  ],
+  "compiler": "HashLips Art Engine"
+}

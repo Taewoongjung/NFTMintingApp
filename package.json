@@ -44,6 +44,7 @@
     "sha1": "^1.1.1",
     "swr": "^1.2.2",
     "typescript": "^4.5.4",
+    "use-file-upload": "1.0.11",
     "use-nft": "0.10.2",
     "web-vitals": "^2.1.2"
   },
@@ -55,10 +56,10 @@
     "mint": "node index.js",
     "generate": "node index.js",
     "rarity": "node utils/rarity.js",
-    "preview": "node utils/preview.js",
+    "preview": "node smartcontract/utils/preview.js",
     "pixelate": "node utils/pixelate.js",
     "update_info": "node utils/update_info.js",
-    "preview_gif": "node utils/preview_gif.js",
+    "preview_gif": "node smartcontract/utils/preview_gif.js",
     "generate_metadata": "node utils/generate_metadata.js"
   },
   "eslintConfig": {

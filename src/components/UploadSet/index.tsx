@@ -1,23 +1,22 @@
-import React, {useCallback, useRef} from 'react';
+import React, { useCallback, useRef, useState } from 'react';
 import {useLocalStore, useObserver} from "mobx-react";
-import { saveAs } from 'file-saver';
 import "./style.css";
 
 const UploadSet = () => {
     const state = useLocalStore(() => ({
-        file: [],
+        files: [],
         fileName: '',
         isDragging: false,
         profileImg: require("./icon.png")
     }));
+
     const imageHandler = useCallback((e) => {
-        const reader = new FileReader();
-        reader.onload = () =>{
-            if(reader.readyState === 2){
-                state.profileImg = reader.result
-            }
-        }
-        reader.readAsDataURL(e.target.files[0])
+        console.log('ImageHandler');
+
+        console.log("files = " ,e.target.files);
+
+        state.files = e.target.files;
+        console.log("saved = ", state.files);
     },[]);
     return useObserver(() => (
         <div className="page">
@@ -26,7 +25,7 @@ const UploadSet = () => {
                 <div className="img-holder">
                     <img src={state.profileImg} alt="" id="img" className="img" />
                 </div>
-                <input type="file" accept="image/*" name="image-upload" id="input" onChange={imageHandler} />
+                <input type="file" accept="image/*" name="image-upload" id="input" multiple onChange={imageHandler} />
                 <div className="label">
                     <label className="image-upload" htmlFor="input">
                         Choose your Photo
