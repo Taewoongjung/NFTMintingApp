@@ -62,7 +62,6 @@ export const FormTextAlertPadding = styled.div`
 
 export const Error = styled.div`
   color: #e01e5a;
-  //margin: 8px 0 16px;
   font-weight: bold;
 `;
 

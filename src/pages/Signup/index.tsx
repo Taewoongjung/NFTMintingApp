@@ -43,8 +43,7 @@ const Signup = () => {
         e.preventDefault();
         if (!mismatchError) {
             console.log("회원가입 하기");
-            setMismatchError(true);
-            axios.post('http://localhost:1010/auth/signup', {
+            axios.post('http://localhost:3000/api/users/signup', {
                 email,
                 name,
                 password,
@@ -115,7 +114,7 @@ const Signup = () => {
                             </FormTextAlertPadding>
                         </div>
                         {mismatchError && <Error>*비밀번호가 일치하지 않습니다.</Error>}
-                        {signUpSuccess && <Success>회원가입되었습니다! 로그인해주세요.</Success>}
+                        {signUpSuccess && <Success>회원가입되었습니다! <a>로그인</a>해주세요.</Success>}
                         <div>
                             <FormSubmitButton type="submit" >Sign up</FormSubmitButton>
                         </div>
