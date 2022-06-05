@@ -22,6 +22,12 @@
     padding: 0.5rem 1rem;
 }
 
+.nav-links-fifth {
+    color: #59a274;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 .nav-links-fir:hover {
     background-color: #9059A2;
     border-radius: 4px;
@@ -46,6 +52,8 @@
     transition: all 0.2s ease-out;
 }
 
-.nav-links-mobile {
-    display: none;
+.nav-links-fifth:hover {
+    background-color: #bc5880;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
 }

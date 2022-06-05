@@ -22,8 +22,8 @@ export const NavMenuItems = [
         cName: 'nav-links-fourth'
     },
     {
-        title: 'Sign up',
-        url: '#',
-        cName: 'nav-links-mobile'
+        title: 'Signup',
+        url: 'http://localhost:3001/Login',
+        cName: 'nav-links-fifth'
     }
 ]

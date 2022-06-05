@@ -13,7 +13,6 @@ import ReactiveButton from "reactive-button";
 import {useLocalStore, useObserver} from "mobx-react";
 
 const Main = () => {
-
     const getState = useLocalStore(() => ({
         file: [],
         fileName: '',
