@@ -1,12 +1,29 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import {Logger} from "@nestjs/common";
+import cookieParser from 'cookie-parser';
+import session from 'express-session';
+import passport from "passport";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  console.log(process.env.PORT);
-  app.enableCors();
+  app.enableCors({
+      origin: true,
+      credentials: true,
+  });
+  app.use(cookieParser());
+  app.use(
+      session({
+        resave: false,
+        saveUninitialized: false,
+        secret: process.env.SECRET,
+        cookie: {
+          httpOnly: true,
+        },
+      }),
+  );
+  app.use(passport.initialize());
+  app.use(passport.session());
   await app.listen(process.env.PORT);
-  Logger.log(`어플리케이션 시작 (포트: ${process.env.PORT}) `)
+  console.log(`어플리케이션 시작 (포트: ${process.env.PORT}) `)
 }
 bootstrap();

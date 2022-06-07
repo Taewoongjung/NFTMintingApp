@@ -3,7 +3,7 @@ import { NavMenuItems } from "../NavMenuItems";
 import {Whole, NavItems, NavbarLogo, FaReact, NavMenu, Bar, MenuIcon} from "./style";
 import {useLocalStore} from "mobx-react";
 
-const Navbar = () => {
+const NavbarNotLoggedIn = () => {
     const state = useLocalStore(() => ({
         clicked: false
     }));
@@ -38,4 +38,4 @@ const Navbar = () => {
     )
 };
 
-export default Navbar;
+export default NavbarNotLoggedIn;

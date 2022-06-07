@@ -1,4 +1,5 @@
 import "./style.css"
+import {userStore} from "../../state_manager/store";
 
 export const NavMenuItems = [
     {
@@ -22,8 +23,8 @@ export const NavMenuItems = [
         cName: 'nav-links-fourth'
     },
     {
-        title: 'Signup',
-        url: 'http://localhost:3001/Login',
+        title: 'Login',
+        url: 'http://localhost:3000/login',
         cName: 'nav-links-fifth'
     }
 ]

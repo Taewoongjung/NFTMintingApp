@@ -22,6 +22,7 @@ const Signup = () => {
     const [mismatchError, setMismatchError] = useState(true);
     const [mismatchEmailError, setEmailMismatchError] = useState(true);
     const [signUpSuccess, setSignUpSuccess] = useState(false);
+    const [errorFromServer, setErrorFromServer] = useState('');
 
     useEffect(() => {
         if (password === password_check) {
@@ -41,6 +42,7 @@ const Signup = () => {
 
     const onSubmit = useCallback((e) => {
         e.preventDefault();
+        setSignUpSuccess(false);
         if (!mismatchError) {
             console.log("회원가입 하기");
             axios.post('http://localhost:3000/api/users/signup', {
@@ -54,6 +56,8 @@ const Signup = () => {
                 })
                 .catch((error) => {
                     console.log(error.response);
+                    setErrorFromServer(error.response.data.message);
+                    console.log(errorFromServer);
                 })
         }
     }, [password, password_check, mismatchError]);
@@ -114,7 +118,8 @@ const Signup = () => {
                             </FormTextAlertPadding>
                         </div>
                         {mismatchError && <Error>*비밀번호가 일치하지 않습니다.</Error>}
-                        {signUpSuccess && <Success>회원가입되었습니다! <a>로그인</a>해주세요.</Success>}
+                        {<Error><u>{errorFromServer}</u></Error>}
+                        {signUpSuccess && <Success>회원가입되었습니다! <a href='/main'>로그인</a>해주세요.</Success>}
                         <div>
                             <FormSubmitButton type="submit" >Sign up</FormSubmitButton>
                         </div>

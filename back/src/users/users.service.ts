@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import {BadRequestException, HttpException, HttpStatus, Injectable} from '@nestjs/common';
 import {InjectRepository} from "@nestjs/typeorm";
 import {Users} from "../entities/Users";
 import {Repository} from "typeorm";
@@ -12,9 +12,20 @@ export class UsersService {
     ) { }
 
     async findByEmail(email: string) {
+        const user = await this.usersRepository.findOne({ where: { email } });
+        if (user) {
+            return user;
+        }
+        throw new HttpException(
+            '사용자 이메일이 존재하지 않습니다.',
+            HttpStatus.NOT_FOUND,
+        )
+    }
+
+    async findByUserEmail(email: string) {
         return this.usersRepository.findOne({
             where: { email },
-            select: ["id", "name", "email", "password" ],
+            select: ["id", "email", "password"]
         });
     }
 
@@ -22,9 +33,11 @@ export class UsersService {
         const salt = await bcrypt.genSalt();
         const hashedPassword = await bcrypt.hash(password, salt);
 
+        console.log("email=", email);
         const user = await this.usersRepository.findOne({ where: { email } });
         if (user) {
-            throw new Error('이미 존재하는 사용자 입니다.');
+            console.log("user = ", user);
+            throw new BadRequestException('이미 존재하는 사용자 입니다.');
         }
         const returned = await this.usersRepository.save({
             id: uuid(),

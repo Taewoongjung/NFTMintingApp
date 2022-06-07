@@ -5,12 +5,14 @@ import {ConfigModule, ConfigService} from "@nestjs/config";
 import {TypeOrmModule} from "@nestjs/typeorm";
 import { UsersModule } from './users/users.module';
 import {Users} from "./entities/Users";
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
       ConfigModule.forRoot({isGlobal: true}),
-      FileuploadModule,
+      AuthModule,
       UsersModule,
+      FileuploadModule,
       TypeOrmModule.forRoot({
           type: 'mysql',
           host: 'localhost',
@@ -24,11 +26,10 @@ import {Users} from "./entities/Users";
           migrations: [__dirname + '/src/migrations/*.ts'],
           autoLoadEntities: true,
           charset: 'utf8mb4',
-          synchronize: false,
+          synchronize: true,
       }),
   ],
-  controllers: [],
-  providers: [FileuploadService, ConfigService],
+  providers: [ConfigService],
 })
 
 export class AppModule {}
