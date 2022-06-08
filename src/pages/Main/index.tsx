@@ -36,8 +36,7 @@ const Main = () => {
 
     return useObserver(() => (
         <div className="App">
-            {!userData && <NavbarNotLoggedIn />}
-            {userData && <NavbarLoggedIn />}
+            {userData ? <NavbarLoggedIn /> : <NavbarNotLoggedIn />}
             <MainContainer>
                 <BoxOne>
                     <UploadSet />

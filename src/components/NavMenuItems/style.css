@@ -28,6 +28,12 @@
     padding: 0.5rem 1rem;
 }
 
+.nav-links-sixth {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 .nav-links-fir:hover {
     background-color: #9059A2;
     border-radius: 4px;
