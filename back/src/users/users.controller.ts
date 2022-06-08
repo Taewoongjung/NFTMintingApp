@@ -4,6 +4,8 @@ import {JoinRequestDto} from "./dto/join.request.dto";
 import {LocalAuthGuard} from "../auth/local-auth.guard";
 import {User} from "../common/decorator/user.decorator";
 import {Users} from "../entities/Users";
+import {LoggedInGuard} from "../auth/logged-in.guard";
+import { NotLoggedInGuard } from 'src/auth/not-logged-in.guard';
 
 @Controller('api/users')
 export class UsersController {
@@ -22,22 +24,10 @@ export class UsersController {
         return user;
     }
 
+    @UseGuards(new NotLoggedInGuard())
     @Post('signup')
     async join(@Body() data: JoinRequestDto) {
-        console.log("통과 하나?", data.email);
-        const user = this.usersService.findByUserEmail(data.email);
-        if (!user) {
-            throw new NotFoundException();
-        }
-        const result = await this.usersService.signUp(
-            data.name,
-            data.email,
-            data.password
-        );
-        if (result) {
+        const result = await this.usersService.signUp(data.email, data.name, data.password);
             return 'success';
-        } else {
-            throw new ForbiddenException();
-        }
     }
 }

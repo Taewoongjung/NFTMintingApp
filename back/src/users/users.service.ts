@@ -29,20 +29,18 @@ export class UsersService {
         });
     }
 
-    async signUp(name: string, email: string, password: string) {
-        const salt = await bcrypt.genSalt();
-        const hashedPassword = await bcrypt.hash(password, salt);
-
-        console.log("email=", email);
+    async signUp(email: string, name: string, password: string) {
         const user = await this.usersRepository.findOne({ where: { email } });
         if (user) {
             console.log("user = ", user);
             throw new BadRequestException('이미 존재하는 사용자 입니다.');
         }
+        const hashedPassword = await bcrypt.hash(password, 12);
+
         const returned = await this.usersRepository.save({
             id: uuid(),
-            email,
             name,
+            email,
             password: hashedPassword,
         });
         console.log("successed = ", returned);
