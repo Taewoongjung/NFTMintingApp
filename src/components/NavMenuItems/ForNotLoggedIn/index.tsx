@@ -1,7 +1,7 @@
-import "./style.css"
-import {userStore} from "../../state_manager/store";
+import "../style.css"
+import {userStore} from "../../../state_manager/store";
 
-export const NavMenuItems = [
+export const NavMenuItemsForNotLoggedIn = [
     {
         title: 'Home',
         url: '#',

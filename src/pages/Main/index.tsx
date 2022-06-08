@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Navbar from "../../components/Navbar";
 import {
     Banner,
     BoxEight, BoxEleven, BoxFour, BoxFourteen,
@@ -11,6 +10,10 @@ import {
 import UploadSet from "../../components/UploadSet";
 import ReactiveButton from "reactive-button";
 import {useLocalStore, useObserver} from "mobx-react";
+import NavbarNotLoggedIn from "../../components/Navbar/ForNotLoggedIn";
+import useSWR from "swr";
+import fetcher from "../../utils/fetcher";
+import NavbarLoggedIn from "../../components/Navbar/ForLoggedIn";
 
 const Main = () => {
     const getState = useLocalStore(() => ({
@@ -20,6 +23,7 @@ const Main = () => {
         profileImg: require("./desolazione_empty_1.gif"),
         bannerImg: require("./talket_transparent.png")
     }));
+    const { data: userData, mutate } = useSWR('http://localhost:3050/api/users', fetcher);
 
     const [state, setState] = useState('idle');
     const onClickHandler = () => {
@@ -28,10 +32,12 @@ const Main = () => {
             setState('success');
         }, 2000);
     };
+    console.log("Main = ", userData);
 
     return useObserver(() => (
         <div className="App">
-            <Navbar />
+            {!userData && <NavbarNotLoggedIn />}
+            {userData && <NavbarLoggedIn />}
             <MainContainer>
                 <BoxOne>
                     <UploadSet />

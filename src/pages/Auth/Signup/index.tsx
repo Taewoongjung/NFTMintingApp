@@ -9,8 +9,8 @@ import {
     MainContainer,
     Success,
     Error
-} from "./style";
-import useInput from "../../hooks/useInput";
+} from "../style";
+import useInput from "../../../hooks/useInput";
 import axios from "axios";
 
 const Signup = () => {
@@ -45,7 +45,7 @@ const Signup = () => {
         setSignUpSuccess(false);
         if (!mismatchError) {
             console.log("회원가입 하기");
-            axios.post('http://localhost:3000/api/users/signup', {
+            axios.post('http://localhost:3050/api/users/signup', {
                 email,
                 name,
                 password,
@@ -60,7 +60,7 @@ const Signup = () => {
                     console.log(errorFromServer);
                 })
         }
-    }, [password, password_check, mismatchError]);
+    }, [email, password, password_check, mismatchError]);
 
     return (
         <MainContainer>
@@ -119,7 +119,7 @@ const Signup = () => {
                         </div>
                         {mismatchError && <Error>*비밀번호가 일치하지 않습니다.</Error>}
                         {<Error><u>{errorFromServer}</u></Error>}
-                        {signUpSuccess && <Success>회원가입되었습니다! <a href='/main'>로그인</a>해주세요.</Success>}
+                        {signUpSuccess && <Success>회원가입되었습니다! <a href='/login'>로그인</a>해주세요.</Success>}
                         <div>
                             <FormSubmitButton type="submit" >Sign up</FormSubmitButton>
                         </div>
