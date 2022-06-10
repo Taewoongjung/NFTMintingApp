@@ -20,6 +20,7 @@ export class LocalSerializer extends PassportSerializer {
     }
 
     async deserializeUser(userId: string, done: CallableFunction) {
+        console.log("deserialized userId = ", userId);
         return await this.usersRepository
             .findOne(
                 {

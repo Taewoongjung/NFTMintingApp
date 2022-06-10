@@ -28,7 +28,7 @@ export class UsersController {
     @UseGuards(new NotLoggedInGuard())
     @Post('signup')
     async join(@Body() data: JoinRequestDto) {
-        const result = await this.usersService.signUp(data.email, data.name, data.password);
+        await this.usersService.signUp(data.email, data.name, data.password);
         return 'success';
     }
 
